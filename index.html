@@ -777,7 +777,7 @@ window.onload = function ()
 	for(var y = 0; y < oLi6.length; y++)
 	{
 		oLi6[y].index = y;
-		oLi6[y].onmouseover = function ()
+		oLi6[y].onclick = function ()
 		{
 			for(var h = 0; h < oLi6.length; h++) oLi6[h].className="";
 			this.className = "xnavhover";
